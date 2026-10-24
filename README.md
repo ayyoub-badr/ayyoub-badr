@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center">Hi there, I'm Ayoub Badr 👋</h1> <p align="center"> <em>"From the sensor to the dashboard — if it can be measured, it can be controlled."</em> </p>
   <img src="hmi.svg" alt="Operator panel — Ayoub Badr, industrial automation and IT/OT integration" width="100%">
 </p>
 
