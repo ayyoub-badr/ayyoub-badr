@@ -1,105 +1,77 @@
-<h1 align="center">Hi there, I'm Ayoub Badr 👋</h1>
-
 <p align="center">
-  <em>"From the sensor to the dashboard — if it can be measured, it can be controlled."</em>
+  <img src="hmi.svg" alt="Operator panel — Ayoub Badr, industrial automation and IT/OT integration" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ayoub-badr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:ayoub.badr82@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/Meknès,_Morocco-3E0097?style=for-the-badge" alt="Location"/>
+  <a href="https://linkedin.com/in/ayoub-badr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:ayoub.badr82@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/ENSAM_Meknès-GE--DI-3E0097?style=flat-square" alt="ENSAM Meknès">
+  <img src="https://img.shields.io/badge/Available-01_Feb_2027_·_6_months-F59E0B?style=flat-square" alt="Availability">
 </p>
 
 ---
 
-## About Me
+### ▸ The panel above is the whole pitch
 
-3rd-year Electromechanical Engineering & Industrial Digitalization student at **ENSAM Meknès**, specializing in **industrial automation and IT/OT integration**. I build the chain that runs from a sensor up to a supervision dashboard — PLC programs and operator HMIs, heterogeneous fieldbus networks, OPC UA and MQTT gateways, time-series historization and alerting. Currently working on multimodal sensor fusion for a contactless machine-control station, and deepening my knowledge in industrial network security.
+Most engineers can work at one level of that diagram. I built all five — on the same bench, wired end to end: a sensor at `L0`, a PLC program at `L1`, an operator panel at `L2`, an OPC UA gateway at `L3`, and a dashboard that actually tells you something at `L4`.
 
-🔎 **Looking for a 6-month final-year engineering internship (PFE) starting February 2027** — industrial automation, supervision, or Industry 4.0 / IIoT.
-
----
-
-## Tech Stack
-
-**Automation & Control**
-
-![TIA Portal](https://img.shields.io/badge/TIA_Portal-009999?style=for-the-badge&logo=siemens&logoColor=white)
-![S7-1200](https://img.shields.io/badge/Siemens_S7--1200-009999?style=for-the-badge&logo=siemens&logoColor=white)
-![Schneider TSX](https://img.shields.io/badge/Schneider_TSX_(PL7)-3DCD58?style=for-the-badge&logo=schneiderelectric&logoColor=white)
-![GRAFCET](https://img.shields.io/badge/GRAFCET-555555?style=for-the-badge)
-![LADDER](https://img.shields.io/badge/LADDER-555555?style=for-the-badge)
-![PID](https://img.shields.io/badge/PID_%26_LQR_control-555555?style=for-the-badge)
-
-**Industrial Networks & IT/OT**
-
-![PROFINET](https://img.shields.io/badge/PROFINET-E2001A?style=for-the-badge)
-![PROFIBUS DP](https://img.shields.io/badge/PROFIBUS_DP-E2001A?style=for-the-badge)
-![AS-i](https://img.shields.io/badge/AS--i-F7941E?style=for-the-badge)
-![Modbus](https://img.shields.io/badge/Modbus_RTU%2FTCP-0B6E99?style=for-the-badge)
-![OPC UA](https://img.shields.io/badge/OPC_UA-0B6E99?style=for-the-badge)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-![ZigBee](https://img.shields.io/badge/ZigBee-EB0443?style=for-the-badge)
-
-**Supervision, Data & Observability**
-
-![WinCC](https://img.shields.io/badge/WinCC_Advanced-009999?style=for-the-badge&logo=siemens&logoColor=white)
-![Node-RED](https://img.shields.io/badge/Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Programming & Embedded**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB%2FSimulink-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-**Design & Simulation**
-
-![CATIA](https://img.shields.io/badge/CATIA_V5-005386?style=for-the-badge&logo=dassaultsystemes&logoColor=white)
-![SolidWorks](https://img.shields.io/badge/SolidWorks-E31E24?style=for-the-badge)
-![ANSYS](https://img.shields.io/badge/ANSYS_Fluent-FFB71B?style=for-the-badge&logo=ansys&logoColor=black)
-![KiCad](https://img.shields.io/badge/PCB_design-314CB0?style=for-the-badge)
+Third-year student at **ENSAM Meknès**, Electromechanical Engineering & Industrial Digitalization. I like the layer where the mechanical world stops being tidy and the data starts — the sensor that drifts, the bus that drops a frame, the alarm nobody acknowledged.
 
 ---
 
-## Current Focus
+### ▸ What's wired in
 
-- 🎯 Multimodal fusion (voice + gesture + gaze) for a contactless machine-control station — rule-based vs. learned fusion, evaluated leave-one-person-out
-- 🔐 Industrial cybersecurity: IT / DMZ / OT segmentation, the Purdue model, IEC 62443, gateway hardening
-- 📊 Making process data useful: historization, threshold alerting and drift analysis rather than dashboards for their own sake
-- ⚙️ Functional safety in machine design — IEC 60204-1, ISO 13850, ISO 13849-1
+**`L0` Field** — PT100 · Hall-effect current sensing · incremental encoders · IMU · custom acquisition PCBs · electrical schematics · power-chain sizing
+
+**`L1` Control** — Siemens S7-1200 (TIA Portal) · Schneider TSX (PL7) · LADDER · GRAFCET · ESP32 · PID · LQR state feedback
+
+**`L2` Supervision** — WinCC Advanced on KTP700 · SCADA · fault handling and acknowledgment · commissioning
+
+**`L3` Integration** — AS-i · PROFIBUS DP · PROFINET · Modbus RTU/TCP · OPC UA (KEPServerEX, Prosys) · MQTT · Node-RED · ISA-95 · MES/ERP interfacing
+
+**`L4` Data** — InfluxDB · SQLite · PostgreSQL · MongoDB · Grafana · threshold alerting · statistical drift analysis · Python
+
+**Upstream** — CATIA V5 · SolidWorks · ANSYS Fluent · strength of materials · DXF for cutting
 
 ---
 
-## Highlighted Projects
+### ▸ Commissioned
 
-**🎙️ Contactless Machine Control Station — Voice, Gesture & Gaze**<br>
-Expertise project (team of two, ENSAM Meknès). I built the offline voice chain (Vosk, closed grammar), the operative part (ESP32, H-bridge, PID on encoder feedback) and the Node-RED supervision, on a versioned JSON-schema MQTT contract validated in CI. Safety by design: hardwired emergency stop outside the software, 500 ms watchdog, two-modality confirmation for critical commands. Now extended into a research study comparing rule-based and learned sensor fusion.
+**🎙️ Contactless Machine Control Station — voice, gesture, gaze**<br>
+An operator station you drive without touching anything. I built the offline voice chain (Vosk, closed grammar), the operative part (ESP32, H-bridge, PID on encoder feedback) and the Node-RED supervision, over a versioned JSON-schema MQTT contract validated in CI. Safety first: emergency stop hardwired *outside* the software, 500 ms watchdog, two different modalities required to confirm a critical command. First real trial produced ~20 unintended gaze validations per minute — which is exactly why the design changed. Now extended into a research study comparing rule-based and learned sensor fusion.
 
-**🏭 Variable Speed Drive Bench — IT/OT Integration & Supervision 4.0**<br>
-Interconnected the three network layers of a drive bench around a Siemens S7-1200: AS-i for sensors and actuators, PROFIBUS DP and PROFINET between devices. Added an OPC UA gateway (KEPServerEX / Prosys) exposing process variables to MES/ERP levels, a WinCC Advanced HMI on a KTP700 panel, and a Node-RED dashboard archiving to SQLite and InfluxDB with threshold alerting and statistical drift analysis.
+**🏭 Variable Speed Drive Bench — three buses, one gateway**<br>
+AS-i for the sensors, PROFIBUS DP and PROFINET between the devices, all converging on an S7-1200, then out through an OPC UA gateway to MES/ERP. WinCC HMI on the panel, Node-RED dashboard archiving to SQLite and InfluxDB, threshold alerts and drift analysis on top.
 
-**🛗 5-Floor Elevator Mock-up — Sequential Control & SCADA Chain**<br>
-Functional analysis and full control program (GRAFCET, LADDER) on a Schneider TSX PLC with safety interlocks, then the complete communication chain on top: Modbus RTU master/slave, Modbus-TCP upload, MQTT publishing to the cloud and OPC UA normalization, supervised in real time under Node-RED.
+**🛗 5-Floor Elevator — from GRAFCET to the cloud**<br>
+Functional analysis, full control program on a Schneider TSX with safety interlocks, then the entire chain stacked above it: Modbus RTU master/slave → Modbus TCP → MQTT to cloud → OPC UA normalization → real-time Node-RED supervision.
 
-**📡 Connected Electromechanical Test Bench — Secured RF Link**<br>
-Sized the complete power chain (motor, PWM drive, protections, cable cross-sections), designed the electrical schematics and a custom acquisition PCB with embedded instrumentation — Hall-effect current sensors, voltage measurement, incremental encoder, PT100 — and an encrypted, authenticated wireless link.
-
-**🤖 Self-Balancing Robot — LQR Control**<br>
-State-space modeling of an inverted-pendulum system, then an LQR controller implemented on ESP32 with an MPU6050 IMU for real-time dynamic stabilization. Led end to end: mechanical design and assembly, control study, software.
+**📡 Connected Test Bench — instrumented and encrypted**<br>
+Complete power chain sized (motor, PWM drive, protections, cable cross-sections), electrical schematics and a custom acquisition PCB — Hall-effect current, voltage, incremental encoder, PT100 — streaming over an encrypted and authenticated wireless link.
 
 **🏥 3-Axis Automated Medical Bed — ABBE Technologie**<br>
-Technical internship: full mechanical design in CATIA V5 with strength-of-materials verification, DXF preparation for cutting, actuator selection and sizing for the three motorized axes, associated power electronics, and the automated control with its touchscreen operator HMI — through to prototype assembly and commissioning.
+A machine taken from blank page to moving prototype: mechanical design in CATIA V5 with strength-of-materials verification, DXF for cutting, actuator selection and sizing on three axes, the power electronics behind them, then the automated control and its touchscreen HMI, through to commissioning.
+
+**🤖 Self-Balancing Robot — LQR**<br>
+Inverted pendulum, modeled in state space, stabilized by an LQR controller on ESP32 with an MPU6050. Mechanical design, control study and software, all mine.
+
+**🏗️ OCP Jorf Lasfar — sulfuric acid line (DCDA)**<br>
+A month following a real production line through its SCADA: control loops, line instrumentation, critical parameters — and turning production data into a digitalized material balance.
+
+---
+
+### ▸ Currently in development
+
+```
+[████████░░] Multimodal fusion — rule-based vs. learned, leave-one-person-out evaluation
+[█████░░░░░] Industrial cybersecurity — IT/DMZ/OT segmentation, Purdue model, IEC 62443
+[███░░░░░░░] Fieldbus diagnostics and industrial remote access
+[██░░░░░░░░] Publishing the acquisition and supervision chains to this account
+```
 
 ---
 
 <p align="center">
-  📫 <a href="mailto:ayoub.badr82@gmail.com">ayoub.badr82@gmail.com</a> · <a href="https://linkedin.com/in/ayoub-badr">linkedin.com/in/ayoub-badr</a>
+  <sub><strong>Looking for a 6-month final-year internship (PFE) from February 2027</strong> — automation, supervision, Industry 4.0 / IIoT.<br>
+  <a href="mailto:ayoub.badr82@gmail.com">ayoub.badr82@gmail.com</a> · <a href="https://linkedin.com/in/ayoub-badr">linkedin.com/in/ayoub-badr</a></sub>
 </p>
