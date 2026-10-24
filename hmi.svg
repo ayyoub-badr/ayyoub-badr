@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Operator panel: Ayoub Badr, electromechanical engineering, automation and IT/OT integration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D141C"/>
+      <stop offset="1" stop-color="#080C11"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17222F"/>
+      <stop offset="1" stop-color="#101922"/>
+    </linearGradient>
+    <linearGradient id="trendfill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="trendclip"><rect x="40" y="196" width="1120" height="74" rx="4"/></clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SFMono-Regular", "DejaVu Sans Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif; }
+    .tag  { fill: #7E96AD; font-size: 10px; letter-spacing: 1.6px; }
+    .box  { fill: #16212D; stroke: #27394C; stroke-width: 1.2; }
+    .ttl  { fill: #E8F0F7; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }
+    .sub  { fill: #86A0B8; font-size: 9.5px; letter-spacing: 0.6px; }
+    .bus  { fill: #22D3EE; font-size: 9px; letter-spacing: 1.4px; }
+    .wire { stroke: #2B4256; stroke-width: 2; }
+  </style>
+
+  <rect width="1200" height="330" rx="10" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="329" rx="10" fill="none" stroke="#223447"/>
+
+  <!-- ===== TITLE BAR ===== -->
+  <rect x="1" y="1" width="1198" height="54" rx="9" fill="url(#bar)"/>
+  <rect x="1" y="54" width="1198" height="1" fill="#223447"/>
+
+  <text x="26" y="27" class="sans ttl" style="font-size:21px;letter-spacing:3px">AYOUB BADR</text>
+  <text x="26" y="44" class="mono sub" style="letter-spacing:1.4px">ELECTROMECHANICAL ENGINEERING · INDUSTRIAL AUTOMATION · IT/OT INTEGRATION</text>
+
+  <!-- rotating drive symbol -->
+  <g transform="translate(915,28)">
+    <circle r="13" fill="none" stroke="#2B4256" stroke-width="1.2"/>
+    <g stroke="#22D3EE" stroke-width="1.6" stroke-linecap="round">
+      <line x1="0" y1="-9" x2="0" y2="-5"/>
+      <line x1="6.4" y1="-6.4" x2="3.5" y2="-3.5"/>
+      <line x1="9" y1="0" x2="5" y2="0"/>
+      <line x1="6.4" y1="6.4" x2="3.5" y2="3.5"/>
+      <line x1="0" y1="9" x2="0" y2="5"/>
+      <line x1="-6.4" y1="6.4" x2="-3.5" y2="3.5"/>
+      <line x1="-9" y1="0" x2="-5" y2="0"/>
+      <line x1="-6.4" y1="-6.4" x2="-3.5" y2="-3.5"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.2s" repeatCount="indefinite"/>
+    </g>
+    <circle r="2.4" fill="#22D3EE"/>
+  </g>
+  <text x="936" y="32" class="mono tag">M1 RUNNING</text>
+
+  <circle cx="1064" cy="28" r="5" fill="#22C55E" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1076" y="32" class="mono tag" style="fill:#22C55E">RUN</text>
+  <text x="1130" y="32" class="mono tag">REV 2.0</text>
+
+  <!-- ===== MIMIC DIAGRAM ===== -->
+  <g class="wire">
+    <line x1="200" y1="140" x2="280" y2="140"/>
+    <line x1="440" y1="140" x2="520" y2="140"/>
+    <line x1="680" y1="140" x2="760" y2="140"/>
+    <line x1="920" y1="140" x2="1000" y2="140"/>
+  </g>
+
+  <text x="240" y="124" class="mono bus" text-anchor="middle">AS-i</text>
+  <text x="480" y="124" class="mono bus" text-anchor="middle">PROFINET</text>
+  <text x="720" y="124" class="mono bus" text-anchor="middle">OPC UA</text>
+  <text x="960" y="124" class="mono bus" text-anchor="middle">MQTT</text>
+
+  <g fill="#22D3EE" filter="url(#glow)">
+    <circle cx="200" cy="140" r="3.2"><animate attributeName="cx" values="200;280" dur="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="440" cy="140" r="3.2"><animate attributeName="cx" values="440;520" dur="1.1s" begin="0.28s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="140" r="3.2"><animate attributeName="cx" values="680;760" dur="1.1s" begin="0.56s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="140" r="3.2"><animate attributeName="cx" values="920;1000" dur="1.1s" begin="0.84s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g>
+    <rect class="box" x="40" y="98" width="160" height="84" rx="6"/>
+    <rect x="40" y="98" width="160" height="3" rx="1.5" fill="#22C55E"/>
+    <text x="54" y="126" class="mono ttl" style="font-size:12px">FIELD</text>
+    <text x="54" y="146" class="mono sub">PT100 · HALL EFFECT</text>
+    <text x="54" y="160" class="mono sub">ENCODER · IMU</text>
+    <text x="54" y="174" class="mono tag">L0</text>
+  </g>
+
+  <g>
+    <rect class="box" x="280" y="98" width="160" height="84" rx="6"/>
+    <rect x="280" y="98" width="160" height="3" rx="1.5" fill="#22D3EE"/>
+    <text x="294" y="126" class="mono ttl" style="font-size:12px">CONTROL</text>
+    <text x="294" y="146" class="mono sub">S7-1200 · TSX</text>
+    <text x="294" y="160" class="mono sub">LADDER · GRAFCET</text>
+    <text x="294" y="174" class="mono tag">L1</text>
+    <circle cx="422" cy="118" r="3.5" fill="#22C55E">
+      <animate attributeName="opacity" values="1;0.2;1" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g>
+    <rect class="box" x="520" y="98" width="160" height="84" rx="6"/>
+    <rect x="520" y="98" width="160" height="3" rx="1.5" fill="#8B5CF6"/>
+    <text x="534" y="126" class="mono ttl" style="font-size:12px">SUPERVISION</text>
+    <text x="534" y="146" class="mono sub">WinCC ADVANCED</text>
+    <text x="534" y="160" class="mono sub">KTP700 PANEL</text>
+    <text x="534" y="174" class="mono tag">L2</text>
+  </g>
+
+  <g>
+    <rect class="box" x="760" y="98" width="160" height="84" rx="6"/>
+    <rect x="760" y="98" width="160" height="3" rx="1.5" fill="#8B5CF6"/>
+    <text x="774" y="126" class="mono ttl" style="font-size:12px">GATEWAY</text>
+    <text x="774" y="146" class="mono sub">KEPServerEX · MES</text>
+    <text x="774" y="160" class="mono sub">NODE-RED · JSON</text>
+    <text x="774" y="174" class="mono tag">L3</text>
+  </g>
+
+  <g>
+    <rect class="box" x="1000" y="98" width="160" height="84" rx="6"/>
+    <rect x="1000" y="98" width="160" height="3" rx="1.5" fill="#F59E0B"/>
+    <text x="1014" y="126" class="mono ttl" style="font-size:12px">ANALYTICS</text>
+    <text x="1014" y="146" class="mono sub">InfluxDB · GRAFANA</text>
+    <text x="1014" y="160" class="mono sub">ALERTING · DRIFT</text>
+    <text x="1014" y="174" class="mono tag">L4</text>
+  </g>
+
+  <!-- ===== TREND ===== -->
+  <rect x="40" y="196" width="1120" height="74" rx="4" fill="#0B1118" stroke="#1C2B3A"/>
+  <g clip-path="url(#trendclip)">
+    <g stroke="#162231" stroke-width="1">
+      <line x1="40" y1="215" x2="1160" y2="215"/>
+      <line x1="40" y1="233" x2="1160" y2="233"/>
+      <line x1="40" y1="251" x2="1160" y2="251"/>
+    </g>
+    <path d="M40,252 L100,240 L160,246 L220,228 L280,234 L340,216 L400,224 L460,210 L520,219 L580,206 L640,214 L700,204 L760,212 L820,203 L880,210 L940,202 L1000,208 L1060,201 L1120,206 L1160,203 L1160,270 L40,270 Z" fill="url(#trendfill)"/>
+    <path d="M40,252 L100,240 L160,246 L220,228 L280,234 L340,216 L400,224 L460,210 L520,219 L580,206 L640,214 L700,204 L760,212 L820,203 L880,210 L940,202 L1000,208 L1060,201 L1120,206 L1160,203"
+          fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linejoin="round"/>
+    <rect x="40" y="196" width="2" height="74" fill="#E8F0F7" opacity="0.55">
+      <animate attributeName="x" values="40;1158;40" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="52" y="211" class="mono tag">PROCESS TREND · COMMISSIONING PROGRESS</text>
+  <text x="1148" y="211" class="mono tag" text-anchor="end" style="fill:#22D3EE">LIVE</text>
+
+  <!-- ===== STATUS BAR ===== -->
+  <rect x="1" y="282" width="1198" height="47" rx="9" fill="url(#bar)"/>
+  <rect x="1" y="282" width="1198" height="1" fill="#223447"/>
+
+  <rect x="26" y="296" width="9" height="18" rx="2" fill="#F59E0B">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="46" y="310" class="mono" style="fill:#F59E0B;font-size:11px;letter-spacing:1.6px;font-weight:700">SEEKING FINAL-YEAR INTERNSHIP (PFE)</text>
+  <text x="400" y="310" class="mono tag">AVAILABLE 01-FEB-2027 · 6 MONTHS · MEKNÈS, MA</text>
+  <text x="1174" y="310" class="mono tag" text-anchor="end">ENSAM MEKNÈS · GE-DI</text>
+</svg>
