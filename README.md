@@ -14,9 +14,9 @@
 
 ## About Me
 
-3rd-year Electromechanical Engineering & Industrial Digitalization student at **ENSAM Meknès**, specializing in **industrial automation, cybersecurity and IT/OT integration**. I build the chain that runs from a sensor up to a supervision dashboard — PLC programs and operator HMIs, heterogeneous fieldbus networks, OPC UA and MQTT gateways, time-series historization and alerting. Currently working on multimodal sensor fusion for a contactless machine-control station, and deepening my knowledge in industrial network security.
+3rd-year Electromechanical Engineering & Industrial Digitalization student at **ENSAM Meknès**, specializing in **industrial automation and IT/OT integration**. I build the chain that runs from a sensor up to a supervision dashboard — PLC programs and operator HMIs, heterogeneous fieldbus networks, OPC UA and MQTT gateways, time-series historization and alerting. Currently working on multimodal sensor fusion for a contactless machine-control station, and deepening my knowledge in industrial network security.
 
-🔎 **Looking for a 6-month final-year engineering internship (PFE) starting February 2027** — industrial automation and digitalization, supervision, or Industry 4.0 / IIoT.
+🔎 **Looking for a 6-month final-year engineering internship (PFE) starting February 2027** — industrial automation, supervision, or Industry 4.0 / IIoT.
 
 ---
 
@@ -80,31 +80,23 @@
 
 ## Highlighted Projects
 
-**🎙️ Contactless Machine Control Station — Voice, Gesture & Gaze**
+**🎙️ Contactless Machine Control Station — Voice, Gesture & Gaze**<br>
 Expertise project (team of two, ENSAM Meknès). I built the offline voice chain (Vosk, closed grammar), the operative part (ESP32, H-bridge, PID on encoder feedback) and the Node-RED supervision, on a versioned JSON-schema MQTT contract validated in CI. Safety by design: hardwired emergency stop outside the software, 500 ms watchdog, two-modality confirmation for critical commands. Now extended into a research study comparing rule-based and learned sensor fusion.
 
-**🏭 Variable Speed Drive Bench — IT/OT Integration & Supervision 4.0**
+**🏭 Variable Speed Drive Bench — IT/OT Integration & Supervision 4.0**<br>
 Interconnected the three network layers of a drive bench around a Siemens S7-1200: AS-i for sensors and actuators, PROFIBUS DP and PROFINET between devices. Added an OPC UA gateway (KEPServerEX / Prosys) exposing process variables to MES/ERP levels, a WinCC Advanced HMI on a KTP700 panel, and a Node-RED dashboard archiving to SQLite and InfluxDB with threshold alerting and statistical drift analysis.
 
-**🛗 5-Floor Elevator Mock-up — Sequential Control & SCADA Chain**
+**🛗 5-Floor Elevator Mock-up — Sequential Control & SCADA Chain**<br>
 Functional analysis and full control program (GRAFCET, LADDER) on a Schneider TSX PLC with safety interlocks, then the complete communication chain on top: Modbus RTU master/slave, Modbus-TCP upload, MQTT publishing to the cloud and OPC UA normalization, supervised in real time under Node-RED.
 
-**📡 Connected Electromechanical Test Bench — Secured RF Link**
+**📡 Connected Electromechanical Test Bench — Secured RF Link**<br>
 Sized the complete power chain (motor, PWM drive, protections, cable cross-sections), designed the electrical schematics and a custom acquisition PCB with embedded instrumentation — Hall-effect current sensors, voltage measurement, incremental encoder, PT100 — and an encrypted, authenticated wireless link.
 
-**🤖 Self-Balancing Robot — LQR Control**
+**🤖 Self-Balancing Robot — LQR Control**<br>
 State-space modeling of an inverted-pendulum system, then an LQR controller implemented on ESP32 with an MPU6050 IMU for real-time dynamic stabilization. Led end to end: mechanical design and assembly, control study, software.
 
-**🏥 3-Axis Automated Medical Bed — ABBE Technologie**
+**🏥 3-Axis Automated Medical Bed — ABBE Technologie**<br>
 Technical internship: full mechanical design in CATIA V5 with strength-of-materials verification, DXF preparation for cutting, actuator selection and sizing for the three motorized axes, associated power electronics, and the automated control with its touchscreen operator HMI — through to prototype assembly and commissioning.
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ayyoub-badr&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
-</p>
 
 ---
 
